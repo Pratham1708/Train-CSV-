@@ -1,7 +1,7 @@
 
 <html>
-    <head><title>Train CSV and Visualize data </title></head>
-    <h2>Table of Contents</h2>
+    <head></head>
+    <h1>Train CSV and Visualize data</h1>
     <ul>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#features">Features</a></li>

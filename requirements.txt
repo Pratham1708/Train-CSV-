@@ -4,4 +4,8 @@ pandas
 numpy
 matplotlib
 seaborn
+<<<<<<< HEAD
 os
+=======
+os
+>>>>>>> c5b95b67bbc47e8ae770d76b23c06ffcce61f7a6

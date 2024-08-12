@@ -10,15 +10,17 @@ st.write("""
     Select one of the following options to get started:
 """)
 
-# Navigation links
-st.write("### Navigate to the Apps")
-st.markdown("""
-    - [Train and Predict Model with homes.csv](http://localhost:8501/?app=app.py)
-    - [Train and Convert Model with result.csv](http://localhost:8502/?app=app1.py)
+# Sidebar navigation
+st.sidebar.title("Navigation")
+st.sidebar.write("### Navigate to the Apps")
+st.sidebar.markdown("""
+    - [Train and Predict with TensorFlow](pages/app.py)
+    - [Train and Convert Model](pages/app1.py)
 """)
 
+# Additional content for the landing page
 st.write("""
-    **Train and Predict Model with homes.csv**: Upload and process `homes.csv` file to train a model and make predictions.
+    **Train and Predict with TensorFlow**: Upload and process `homes.csv` file to train a model and make predictions.
 
-    **Train and Convert Model with result.csv**: Upload and process `result.csv` file to train a model, convert it to TensorFlow.js format, and make predictions.
+    **Train and Convert Model**: Upload and process `result.csv` file to train a model, convert it to TensorFlow.js format, and make predictions.
 """)
